@@ -1,6 +1,8 @@
 import React from "react"
-import HeaderBriefcase from "../components/headerBriefcase/header-briefcase"
+import Layout from '../components/layout/layout';
 
 export default () => (
-  <HeaderBriefcase/>
+  <Layout>
+    <h1>Hello word</h1>
+  </Layout>
 )
