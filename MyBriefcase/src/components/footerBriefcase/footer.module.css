@@ -2,13 +2,31 @@
     background-color: #492d9d;
     color: #ffffff;
     padding: 10px 15px;
+    margin: -7.9px -7.8px;
 }
-.diferent {
-    background-color: black;
-}
-.footerText{
+
+.footerText {
     font-family: 'Open Sans', sans-serif;
-    font-size:40px;
+    font-size: 30px;
     font-weight: 700;
     color: #4A2D9A;
+}
+
+.iconFontAwesome {
+    font-size: 40px;
+}
+
+.iconBox {
+    margin-left: 210px;
+}
+
+@media (max-width: 513px) {
+    .footerText {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .iconBox {
+        margin-left: 110px;
+    }
 }
