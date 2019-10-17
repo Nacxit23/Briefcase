@@ -12,6 +12,12 @@
     color: #4A2D9A;
 }
 
+.boxInformation {
+    background-image: radial-gradient(#EBEBEB 15%, transparent 0), radial-gradient(#EBEBEB 15%, transparent 0);
+    background-size: 70px;
+    background-position: 0 0, 40px 30px;
+}
+
 .iconFontAwesome {
     font-size: 40px;
 }
@@ -27,6 +33,16 @@
     }
 
     .iconBox {
-        margin-left: 110px;
+        margin-left: 60px;
+    }
+
+    .boxInformation {
+        background-image: radial-gradient(#EBEBEB 30%, transparent 0), radial-gradient(#EBEBEB 30%, transparent 0);
+        background-size: 80px;
+        background-position: 0 0, 50px 100px;
+    }
+
+    .boxInformation > p {
+        padding-left: 10px;
     }
 }

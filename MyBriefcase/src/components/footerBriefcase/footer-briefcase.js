@@ -20,7 +20,7 @@ export default () => {
   return (
     <footer>
       <div className={`${FlexGrid.col}`}>
-        <div className={` ${FlexGrid.row} ${FlexGrid.aroundXs} 
+        <div className={` ${FlexGrid.row} ${FlexGrid.aroundXs} ${FooterStyle.boxInformation}
         ${FlexGrid.middleXs} ${FlexGrid.colLg} ${FlexGrid.colXs}`}>
           <p className={`${FooterStyle.footerText}`}>
             {data.site.siteMetadata.phoneNumber}
