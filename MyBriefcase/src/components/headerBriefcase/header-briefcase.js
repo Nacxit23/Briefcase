@@ -24,12 +24,11 @@ export default () => {
   return (
     <header>
       <div className={`${headerStyle.header}`}>
-        <div className={`${flexGrid.row} ${flexGrid.colXs} 
-      ${flexGrid.betweenXs} ${flexGrid.middleXs} `}>
+        <div className={`${flexGrid.row} ${flexGrid.colXs} ${flexGrid.middleXs} `}>
           <div className={`${headerStyle.logo} ${flexGrid.colXs6}`}>
             <Img fluid={data.file.childImageSharp.fluid} className={`${headerStyle.ImgPretty}`}/>
           </div>
-          <div className={`${flexGrid.centerXs} ${flexGrid.colXs}`}>
+          <div className={`${flexGrid.centerXs} ${flexGrid.colXs} ${headerStyle.navConteiner} `}>
             <nav className={`${headerStyle.menu}`}>
               <a href="#" className={`${headerStyle.item}`}> ABOUT</a>
               <a href="#" className={headerStyle.item}>WORK</a>

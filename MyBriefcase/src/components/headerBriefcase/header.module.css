@@ -1,6 +1,5 @@
 .header {
-    background: #F62839;
-    display: flex;
+    /*background: #F62839;*/
     margin: -7.9px -7.8px;
 }
 
@@ -8,6 +7,13 @@
     font-size: 15px;
     font-weight: bold;
     /*margin-top: 15px;*/
+}
+
+.navConteiner {
+    background: #F62839;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -32px;
 }
 
 .menu a {
@@ -47,7 +53,23 @@
 
 .ImgPretty {
     width: 150px;
-    height: 45px;
-    background-color: #ffffff;
     padding-top: 5px;
+}
+
+@media (max-width: 513px) {
+
+    .ImgPretty {
+        width: 130px;
+    }
+
+    .lastItem {
+        background: #ffffff;
+        color: #F62839;
+        text-decoration: none;
+        font-family: Open Sans;
+        border-bottom-right-radius: 0px;
+        padding: 10px 20px;
+        margin-top: 5px;
+    }
+
 }
