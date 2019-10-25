@@ -30,10 +30,10 @@ export default () => {
           </div>
           <div className={`${flexGrid.centerXs} ${flexGrid.colXs} ${headerStyle.navConteiner} `}>
             <nav className={`${headerStyle.menu}`}>
-              <a href="#" className={`${headerStyle.item}`}> ABOUT</a>
-              <a href="#" className={headerStyle.item}>WORK</a>
-              <a href="#" className={headerStyle.item}>PORTAFOLIO</a>
-              <a href="#" className={`${headerStyle.lastItem}`}>HIRE ME</a>
+              <a href="#" className={`${headerStyle.item} ${headerStyle.hvrUnderlineReveal}`}> ABOUT</a>
+              <a href="#" className={`${headerStyle.item} ${headerStyle.hvrUnderlineReveal}`}>WORK</a>
+              <a href="#" className={`${headerStyle.item} ${headerStyle.hvrUnderlineReveal}`}>PORTAFOLIO</a>
+              <a href="#" className={`${headerStyle.lastItem} ${headerStyle.hvrGlow}`}>HIRE ME</a>
             </nav>
           </div>
         </div>
