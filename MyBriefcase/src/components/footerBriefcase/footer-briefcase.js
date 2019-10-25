@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import FlexGrid from "../../pages/globalStyle/flexboxgrid.min.module.css"
-import FooterStyle from "./footer.module.css"
+import flexGrid from "../../pages/globalStyle/flexboxgrid.min.module.css"
+import footerStyle from "./footer.module.css"
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa"
 
 export default () => {
@@ -19,22 +19,22 @@ export default () => {
   `)
   return (
     <footer>
-      <div className={`${FlexGrid.col}`}>
-        <div className={` ${FlexGrid.row} ${FlexGrid.aroundXs} ${FooterStyle.boxInformation}
-        ${FlexGrid.middleXs} ${FlexGrid.colLg} ${FlexGrid.colXs}`}>
-          <p className={`${FooterStyle.footerText}`}>
+      <div className={`${flexGrid.col}`}>
+        <div className={` ${flexGrid.row} ${flexGrid.aroundMd} ${flexGrid.colMd} ${footerStyle.boxInformation}
+        ${flexGrid.middleMd}  ${flexGrid.colXs} ${flexGrid.centerXs} ${flexGrid.middleXs}`}>
+          <p className={`${footerStyle.footerText}`}>
             {data.site.siteMetadata.phoneNumber}
           </p>
-          <div className={`${FlexGrid.row} ${FooterStyle.iconBox}`}>
-            <a className={FooterStyle.iconFontAwesome} href=""><FaFacebookSquare/></a>
-            <a className={FooterStyle.iconFontAwesome} href=""><FaTwitterSquare/></a>
-            <a className={FooterStyle.iconFontAwesome} href=""><FaLinkedin/></a>
+          <div className={`${flexGrid.row} ${footerStyle.iconBox}`}>
+            <a className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`} href=""><FaFacebookSquare/></a>
+            <a className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`} href=""><FaTwitterSquare/></a>
+            <a className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`} href=""><FaLinkedin/></a>
           </div>
-          <p className={`${FooterStyle.footerText}`}>
+          <p className={`${footerStyle.footerText}`}>
             {data.site.siteMetadata.personalEmail}
           </p>
         </div>
-        <div className={`${FlexGrid.centerXs} ${FooterStyle.copyRight}`}>
+        <div className={`${flexGrid.centerXs} ${footerStyle.copyRight}`}>
           <p>
             {data.site.siteMetadata.copyRight}
           </p>

@@ -16,6 +16,7 @@
     background-image: radial-gradient(#EBEBEB 15%, transparent 0), radial-gradient(#EBEBEB 15%, transparent 0);
     background-size: 70px;
     background-position: 0 0, 40px 30px;
+    margin: -7.9px -7.8px;
 }
 
 .iconFontAwesome {
@@ -26,6 +27,40 @@
     margin-left: 210px;
 }
 
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    transition-duration: .3s;
+    transition-property: transform
+}
+
+.hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, 0) 80%);
+    transition-duration: .3s;
+    transition-property: transform, opacity
+}
+
+.hvr-float-shadow:active, .hvr-float-shadow:focus, .hvr-float-shadow:hover {
+    transform: translateY(-5px)
+}
+
+.hvr-float-shadow:active:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:hover:before {
+    opacity: 1;
+    transform: translateY(5px)
+}
+
 @media (max-width: 513px) {
     .footerText {
         font-size: 20px;
@@ -33,16 +68,20 @@
     }
 
     .iconBox {
-        margin-left: 60px;
+        margin-left: 15px;
     }
 
     .boxInformation {
-        background-image: radial-gradient(#EBEBEB 30%, transparent 0), radial-gradient(#EBEBEB 30%, transparent 0);
-        background-size: 80px;
-        background-position: 0 0, 50px 100px;
+        background-image: radial-gradient(#EBEBEB 20%, transparent 0), radial-gradient(#EBEBEB 20%, transparent 0);
+        background-size: 200px;
+        background-position: 0 0, 50px 80px;
     }
 
     .boxInformation > p {
         padding-left: 10px;
+    }
+
+    .iconFontAwesome {
+        font-size: 60px;
     }
 }
