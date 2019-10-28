@@ -1,0 +1,272 @@
+.firstPageStyle {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.paragraphOne {
+    color: #4A2D9A;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+}
+
+.personName {
+    color: #F32131;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 104.6px;
+}
+
+.datePerson {
+    color: #727190;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.rightContainer {
+    background-color: #F32131;
+    background-image: radial-gradient(#F53645 40%, transparent 0), radial-gradient(#F53645 40%, transparent 0);
+    background-size: 600px;
+    background-position: 0 0, 330px 260px;
+    height: 600px;
+    margin-right: -8px;
+}
+
+.profile {
+    border-radius: 50%;
+    background: #5cb85c;
+    width: 300px;
+    height: 300px;
+}
+
+.welcameText {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Fascinate Inline', cursive;
+    color: #ffffff;
+}
+
+.hvr-bubble-right {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative
+}
+
+.hvr-bubble-right:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    border-style: solid;
+    transition-duration: .3s;
+    transition-property: transform;
+    top: calc(50% - 10px);
+    right: 0;
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+.hvr-bubble-right:active:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:hover:before {
+    transform: translateX(30px)
+}
+
+/*second div information for me*/
+.informationFromMe {
+    background: #FFF9F6;
+    height: 500px;
+    border-bottom-right-radius: 250px;
+}
+
+.MyBiography {
+    background: #FFF4F1;
+    border-bottom-right-radius: 650px;
+    border-bottom-left-radius: 650px;
+    height: 500px;
+}
+
+.biographyText {
+    color: #4A2D9A;
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.cvButton {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 20px 28px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    background: rgba(243, 33, 49, .1);
+    color: #F32131;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.cvButton:hover {
+    background: #F32131;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.presetation {
+    text-align: justify-all;
+    font-size: 25px;
+    color: #4A2D9A;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.cite {
+    font-weight: 700;
+    padding-top: 15px;
+    font-family: 'Pacifico', cursive;
+}
+
+/*!*third div information for me*!*/
+.myWork {
+    color: #4A2D9A;
+    font-weight: 700;
+    font-size: 72px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.canInbox {
+    color: rgba(114, 113, 144, 0.5);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon {
+    width: 150px;
+    margin-left: 55px;
+    margin-bottom: -15px;
+}
+
+.icon2 {
+    width: 150px;
+    margin-left: 39px;
+    margin-bottom: -15px;
+}
+
+.icon3 {
+    width: 150px;
+    margin-left: 75px;
+    margin-bottom: -15px;
+}
+
+.tittle {
+    color: #4A2D9A;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: -10px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .informationFromMe {
+        height: 900px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .paragraphOne {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .personName {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    .datePerson {
+        margin-left: 20px;
+    }
+
+    .rightContainer {
+        margin-right: 1px;
+    }
+
+    .biographyText {
+        font-size: 50px;
+    }
+
+    .informationFromMe .rightContainer {
+        margin: 0 0;
+    }
+
+    .MyBiography {
+        border-bottom-right-radius: 108px;
+        border-bottom-left-radius: 96px;
+        height: 391px;
+    }
+
+    .myWork {
+        font-size: 40px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .paragraphOne {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .personName {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    .datePerson {
+        margin-left: 20px;
+    }
+
+    .informationFromMe {
+        height: 900px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .biographyText {
+        font-size: 60px;
+    }
+
+    .informationFromMe .rightContainer {
+        margin: 0 0;
+    }
+
+    .MyBiography {
+        border-bottom-right-radius: 108px;
+        border-bottom-left-radius: 96px;
+        height: 391px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .rightContainer {
+        margin: 0 0;
+    }
+}
