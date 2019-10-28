@@ -1,11 +1,11 @@
-.firstPageStyle {
+.first-page-style {
     margin-right: 0;
     margin-left: 0;
     padding-right: 0;
     padding-left: 0;
 }
 
-.paragraphOne {
+.paragraph-one {
     color: #4A2D9A;
     font-size: 40px;
     font-weight: 700;
@@ -13,7 +13,7 @@
     margin-left: 100px;
 }
 
-.personName {
+.person-name {
     color: #F32131;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
@@ -24,7 +24,7 @@
     margin-right: 104.6px;
 }
 
-.datePerson {
+.date-person {
     color: #727190;
     font-size: 20px;
     font-weight: 700;
@@ -33,7 +33,7 @@
     margin-left: 100px;
 }
 
-.rightContainer {
+.right-container {
     background-color: #F32131;
     background-image: radial-gradient(#F53645 40%, transparent 0), radial-gradient(#F53645 40%, transparent 0);
     background-size: 600px;
@@ -49,7 +49,7 @@
     height: 300px;
 }
 
-.welcameText {
+.welcame-text {
     font-weight: 700;
     font-size: 60px;
     font-family: 'Fascinate Inline', cursive;
@@ -83,27 +83,27 @@
 }
 
 /*second div information for me*/
-.informationFromMe {
+.information-from-me {
     background: #FFF9F6;
     height: 500px;
     border-bottom-right-radius: 250px;
 }
 
-.MyBiography {
+.my-biography {
     background: #FFF4F1;
     border-bottom-right-radius: 650px;
     border-bottom-left-radius: 650px;
     height: 500px;
 }
 
-.biographyText {
+.biography-text {
     color: #4A2D9A;
     font-weight: 700;
     font-size: 70px;
     font-family: 'Fira Sans', sans-serif;
 }
 
-.cvButton {
+.cv-button {
     display: inline-block;
     font-weight: 700;
     text-align: center;
@@ -121,7 +121,7 @@
     border-bottom-right-radius: 80px;
 }
 
-.cvButton:hover {
+.cv-button:hover {
     background: #F32131;
     color: #ffffff;
     transition: 1s;
@@ -142,14 +142,14 @@
 }
 
 /*!*third div information for me*!*/
-.myWork {
+.my-work {
     color: #4A2D9A;
     font-weight: 700;
     font-size: 72px;
     font-family: 'Oxygen', sans-serif;
 }
 
-.canInbox {
+.can-inbox {
     color: rgba(114, 113, 144, 0.5);
     font-size: 20px;
     font-weight: 700;
@@ -184,80 +184,80 @@
 
 @media screen and (max-width: 400px) {
 
-    .informationFromMe {
+    .information-from-me {
         height: 900px;
         border-top-left-radius: 0;
         border-bottom-right-radius: 0;
     }
 
-    .paragraphOne {
+    .paragraph-one {
         font-size: 40px;
         margin-left: 20px;
     }
 
-    .personName {
+    .person-name {
         font-size: 50px;
         margin-left: 20px;
     }
 
-    .datePerson {
+    .date-person {
         margin-left: 20px;
     }
 
-    .rightContainer {
+    .right-container {
         margin-right: 1px;
     }
 
-    .biographyText {
+    .biography-text {
         font-size: 50px;
     }
 
-    .informationFromMe .rightContainer {
+    .information-from-me .right-container {
         margin: 0 0;
     }
 
-    .MyBiography {
+    .my-biography {
         border-bottom-right-radius: 108px;
         border-bottom-left-radius: 96px;
         height: 391px;
     }
 
-    .myWork {
+    .my-work {
         font-size: 40px;
         margin-left: 15px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .paragraphOne {
+    .paragraph-one {
         font-size: 40px;
         margin-left: 20px;
     }
 
-    .personName {
+    .person-name {
         font-size: 50px;
         margin-left: 20px;
     }
 
-    .datePerson {
+    .date-person {
         margin-left: 20px;
     }
 
-    .informationFromMe {
+    .information-from-me {
         height: 900px;
         border-top-left-radius: 0;
         border-bottom-right-radius: 0;
     }
 
-    .biographyText {
+    .biography-text {
         font-size: 60px;
     }
 
-    .informationFromMe .rightContainer {
+    .information-from-me .right-container {
         margin: 0 0;
     }
 
-    .MyBiography {
+    .my-biography {
         border-bottom-right-radius: 108px;
         border-bottom-left-radius: 96px;
         height: 391px;
@@ -266,7 +266,7 @@
 
 @media screen and (max-width: 1000px) {
 
-    .rightContainer {
+    .right-container {
         margin: 0 0;
     }
 }

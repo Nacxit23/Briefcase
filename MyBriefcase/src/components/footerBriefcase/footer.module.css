@@ -1,25 +1,25 @@
-.copyRight {
+.copy-right {
     background-color: #492d9d;
     color: #ffffff;
     padding: 10px 15px;
     margin: -7.9px -7.8px;
 }
 
-.footerText {
+.footer-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: #4A2D9A;
 }
 
-.boxInformation {
+.box-information {
     background-image: radial-gradient(#EBEBEB 15%, transparent 0), radial-gradient(#EBEBEB 15%, transparent 0);
     background-size: 70px;
     background-position: 0 0, 40px 30px;
     margin: -7.9px -7.8px;
 }
 
-.iconFontAwesome {
+.icon-font-awesome {
     font-size: 40px;
 }
 
@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 513px) {
-    .footerText {
+    .footer-text {
         font-size: 20px;
         font-weight: 700;
     }
@@ -67,17 +67,17 @@
         margin-left: 15px;
     }
 
-    .boxInformation {
+    .box-information {
         background-image: radial-gradient(#EBEBEB 20%, transparent 0), radial-gradient(#EBEBEB 20%, transparent 0);
         background-size: 200px;
         background-position: 0 0, 50px 80px;
     }
 
-    .boxInformation > p {
+    .box-information > p {
         padding-left: 10px;
     }
 
-    .iconFontAwesome {
+    .icon-font-awesome {
         font-size: 60px;
     }
 }

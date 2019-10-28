@@ -23,7 +23,7 @@ const IndexPage = props => (
       </div>
       <div className={`${flexGrid.row} ${flexGrid.colMd} ${flexGrid.middleMd} 
         ${flexGrid.colXs} ${firstPage.informationFromMe}`}>
-        <div className={`${firstPage.MyBiography} ${flexGrid.colMd6} ${flexGrid.centerMd} ${flexGrid.middleMd}
+        <div className={`${firstPage.myBiography} ${flexGrid.colMd6} ${flexGrid.centerMd} ${flexGrid.middleMd}
          ${flexGrid.colXs} ${flexGrid.centerXs}`}>
           <p className={`${firstPage.biographyText}`}>My Biography</p>
           <button className={`${firstPage.cvButton} ${firstPage.hvrShutterInHorizontal}`} type="button">
@@ -48,17 +48,17 @@ const IndexPage = props => (
         <div className={`${firstPage.canInbox} ${flexGrid.row} ${flexGrid.colMd} ${flexGrid.colXs} 
         ${flexGrid.aroundMd} ${flexGrid.centerXs}`}>
           <div className={`${flexGrid.col}`}>
-            <Img className={`${firstPage.icon}`} fluid={props.data.imageIconInterface.childImageSharp.fluid} />
+            <Img className={`${firstPage.icon}`} fluid={props.data.imageIconInterface.childImageSharp.fluid}/>
             <p className={`${firstPage.tittle}`}> Development</p>
             <p>Angular JS, Vue.js, Laravel,..</p>
           </div>
           <div className={`${flexGrid.col}`}>
-            <Img className={`${firstPage.icon2}`} fluid={props.data.imageIconDesign.childImageSharp.fluid} />
+            <Img className={`${firstPage.icon2}`} fluid={props.data.imageIconDesign.childImageSharp.fluid}/>
             <p className={`${firstPage.tittle}`}> Disign</p>
             <p>Photoshop, Illustrator, ..</p>
           </div>
           <div className={`${flexGrid.col}`}>
-            <Img className={`${firstPage.icon3}`} fluid={props.data.imageIconWireframe.childImageSharp.fluid} />
+            <Img className={`${firstPage.icon3}`} fluid={props.data.imageIconWireframe.childImageSharp.fluid}/>
             <p className={`${firstPage.tittle}`}> Wireframe</p>
             <p>Wireframe.cc, UxPin, Adobe Xd, ..</p>
           </div>

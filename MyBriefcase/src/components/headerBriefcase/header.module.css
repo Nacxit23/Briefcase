@@ -10,7 +10,7 @@
     /*margin-top: 15px;*/
 }
 
-.navConteiner {
+.nav-conteiner {
     background: #F62839;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -29,7 +29,7 @@
     font-family: Open Sans;
 }
 
-.lastItem {
+.last-Item {
     background: #ffffff;
     color: #F62839;
     text-decoration: none;
@@ -38,7 +38,7 @@
     padding: 10px 20px;
 }
 
-.lastItem:hover {
+.last-Item:hover {
     color: #4A2D9A;
     transition: .5s;
 }
@@ -47,7 +47,7 @@
     background-color: #ffffff;
 }
 
-.ImgPretty {
+.img-pretty {
     width: 150px;
     padding-top: 5px;
 }
@@ -95,11 +95,11 @@
 
 @media (max-width: 513px) {
 
-    .ImgPretty {
+    .img-pretty {
         width: 130px;
     }
 
-    .lastItem {
+    .last-Item {
         background: #ffffff;
         color: #F62839;
         text-decoration: none;
