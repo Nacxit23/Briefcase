@@ -40,12 +40,30 @@ const IndexPage = props => (
           </p>
         </div>
       </div>
-        <div className={`${flexGrid.row} ${flexGrid.colMd} ${flexGrid.colXs} ${flexGrid.centerMd}
+      <div className={`${flexGrid.col} ${flexGrid.colMd} ${flexGrid.colXs} ${flexGrid.centerMd}
         ${flexGrid.centerXs}`}>
-          <div className={`${firstPage.myWork}`}>
-              <p>What can I do ?</p>
+        <div className={`${firstPage.myWork}`}>
+          <p>What can I do ?</p>
+        </div>
+        <div className={`${firstPage.canInbox} ${flexGrid.row} ${flexGrid.colMd} ${flexGrid.colXs} 
+        ${flexGrid.aroundMd} ${flexGrid.centerXs}`}>
+          <div className={`${flexGrid.col}`}>
+            <Img className={`${firstPage.icon}`} fluid={props.data.imageIconInterface.childImageSharp.fluid} />
+            <p className={`${firstPage.tittle}`}> Development</p>
+            <p>Angular JS, Vue.js, Laravel,..</p>
+          </div>
+          <div className={`${flexGrid.col}`}>
+            <Img className={`${firstPage.icon2}`} fluid={props.data.imageIconDesign.childImageSharp.fluid} />
+            <p className={`${firstPage.tittle}`}> Disign</p>
+            <p>Photoshop, Illustrator, ..</p>
+          </div>
+          <div className={`${flexGrid.col}`}>
+            <Img className={`${firstPage.icon3}`} fluid={props.data.imageIconWireframe.childImageSharp.fluid} />
+            <p className={`${firstPage.tittle}`}> Wireframe</p>
+            <p>Wireframe.cc, UxPin, Adobe Xd, ..</p>
           </div>
         </div>
+      </div>
     </div>
   </Layout>
 )
@@ -58,6 +76,27 @@ query {
     childImageSharp {
       fluid(maxWidth:400){
          ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  imageIconInterface: file(relativePath: {eq: "incon-interface.png"}){
+    childImageSharp {
+      fluid(maxWidth:400){
+          ...GatsbyImageSharpFluid
+      }
+    }
+  }
+   imageIconDesign: file(relativePath: {eq: "disign-icon.png"}){
+    childImageSharp {
+      fluid(maxWidth:400){
+          ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  imageIconWireframe: file(relativePath: {eq: "wireframe-icon.png"}){
+    childImageSharp {
+      fluid(maxWidth:400){
+          ...GatsbyImageSharpFluid
       }
     }
   }

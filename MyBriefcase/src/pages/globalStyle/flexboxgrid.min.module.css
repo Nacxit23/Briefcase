@@ -1,12 +1,13 @@
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem
+    /*padding-right: 2rem;*/
+    /*padding-left: 2rem;*/
 }
 
 .row {
-    box-sizing: border-box;flexGrid.colXs12
+    box-sizing: border-box;
+    flexGrid . colXs12
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -245,7 +246,7 @@
         -webkit-box-flex: 0;
         flex: 0 0 auto;
         padding-right: 1rem;
-        padding-left: 1rem
+        padding-left: 1rem;
     }
 
     .col-sm {
