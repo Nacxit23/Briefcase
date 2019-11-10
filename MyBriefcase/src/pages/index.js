@@ -5,7 +5,6 @@ import pdFile from "../../assets/Nacxit_Armando_Mayorga_cv.pdf"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FaFilePdf } from "react-icons/fa"
-
 import ListMyWork from "../components/listMyWork/listMyWork"
 import Layout from "../components/layout/layout"
 
@@ -21,7 +20,8 @@ const IndexPage = props => (
         </div>
         <div className={`${firge.rightContainer} ${flex.row} ${flex.colMd}
         ${flex.centerMd} ${flex.middleMd} ${flex.colXs} ${flex.centerXs} ${flex.middleXs}`}>
-          <Img className={`${firge.profile} `} fluid={props.data.imageOne.childImageSharp.fluid}/>
+          <Img className={`${firge.profile} ${flex.hvrBuzz}`} fluid={props.data.imageOne.childImageSharp.fluid}/>
+
         </div>
       </div>
       <div className={`${flex.row} ${flex.colMd} ${flex.middleMd} ${flex.colXs} ${firge.informationFromMe}`}>

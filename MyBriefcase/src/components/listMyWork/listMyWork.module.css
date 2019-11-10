@@ -16,18 +16,30 @@
     padding-top: 70px;
 }
 
-.conteiner-word p {
-    color: #ffffff;
-    font-family: 'Righteous', cursive;
-    font-size: 50px;
-}
-
 .img {
     width: 360px;
     height: 260px;
     box-shadow: -1px 6px 28px -11px rgba(0, 0, 0, 0.75);
     border-radius: 2%;
     margin-left: 20px;
+}
+
+.developer {
+    width: 200px;
+    height: 200px;
+}
+
+.toolTip {
+    color: #4A2D9A !important;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    background-color: #EBEBEB !important;
+}
+
+.tittle {
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
 }
 
 @media screen and (max-width: 400px) {
@@ -39,8 +51,10 @@
         padding-top: 0;
     }
 
-    .conteiner-word p {
-        font-size: 38px;
+    .tittle {
+        color: #ffffff;
+        font-family: 'Righteous', cursive;
+        font-size: 50px;
     }
 
     .circle {
@@ -59,6 +73,7 @@
     .conteiner-word {
         height: 550px;
     }
+
     .conteiner-word {
         height: 619px;
         border-top-left-radius: 0;
