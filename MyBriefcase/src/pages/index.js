@@ -1,69 +1,72 @@
 import React from "react"
-import Layout from "../components/layout/layout"
-import flexGrid from "./globalStyle/flexboxgrid.min.module.css"
-import firstPage from "./firstPage.module.css"
+import flex from "./globalStyle/flexboxgrid.min.module.css"
+import firge from "./firstPage.module.css"
+import pdFile from "../../assets/Nacxit_Armando_Mayorga_cv.pdf"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import { FaChevronCircleDown } from "react-icons/fa"
+import { FaFilePdf } from "react-icons/fa"
+
+import ListMyWork from "../components/listMyWork/listMyWork"
+import Layout from "../components/layout/layout"
 
 const IndexPage = props => (
   <Layout>
     <div>
-      <div className={`${flexGrid.row} ${flexGrid.colMd} ${flexGrid.middleMd}
-       ${firstPage.firstPageStyle} ${flexGrid.colXs}`}>
-        <div className={`${flexGrid.colMd6} ${firstPage.hvrBubbleRight}`}>
-          <p className={`${firstPage.paragraphOne}`}> Hi, I am</p>
-          <p className={`${firstPage.personName}`}>Nacxit Mayorga</p>
-          <p className={`${firstPage.datePerson}`}>Freelance Backend/Frondend Developer </p>
+      <div className={`${flex.row} ${flex.colMd} ${flex.middleMd}
+       ${firge.firstPageStyle} ${flex.colXs}`}>
+        <div className={`${flex.colMd6} ${firge.hvrBubbleRight}`}>
+          <p className={`${firge.paragraphOne}`}> Hi, I am</p>
+          <p className={`${firge.personName}`}>Nacxit Mayorga</p>
+          <p className={`${firge.datePerson}`}>Freelance Backend/Frondend Developer </p>
         </div>
-        <div className={`${firstPage.rightContainer} ${flexGrid.row} ${flexGrid.colMd}
-        ${flexGrid.centerMd} ${flexGrid.middleMd} ${flexGrid.colXs} ${flexGrid.centerXs} ${flexGrid.middleXs}`}>
-          <Img className={`${firstPage.profile} `} fluid={props.data.imageOne.childImageSharp.fluid}/>
+        <div className={`${firge.rightContainer} ${flex.row} ${flex.colMd}
+        ${flex.centerMd} ${flex.middleMd} ${flex.colXs} ${flex.centerXs} ${flex.middleXs}`}>
+          <Img className={`${firge.profile} `} fluid={props.data.imageOne.childImageSharp.fluid}/>
         </div>
       </div>
-      <div className={`${flexGrid.row} ${flexGrid.colMd} ${flexGrid.middleMd} 
-        ${flexGrid.colXs} ${firstPage.informationFromMe}`}>
-        <div className={`${firstPage.myBiography} ${flexGrid.colMd6} ${flexGrid.centerMd} ${flexGrid.middleMd}
-         ${flexGrid.colXs} ${flexGrid.centerXs}`}>
-          <p className={`${firstPage.biographyText}`}>My Biography</p>
-          <button className={`${firstPage.cvButton} ${firstPage.hvrShutterInHorizontal}`} type="button">
-            <i><FaChevronCircleDown/></i> DOWNLOAD CV
-          </button>
+      <div className={`${flex.row} ${flex.colMd} ${flex.middleMd} ${flex.colXs} ${firge.informationFromMe}`}>
+        <div className={`${firge.myBiography} ${flex.colMd6} ${flex.centerMd} ${flex.middleMd}
+         ${flex.colXs} ${flex.centerXs}`}>
+          <p className={`${firge.biographyText}`}>My Biography</p>
+          <a href={pdFile} className={`${firge.cvButton} ${firge.hvrShutterInHorizontal}`}>
+            <i><FaFilePdf/></i> View CV
+          </a>
         </div>
-        <div className={`${firstPage.presetation} ${flexGrid.colMd6} ${flexGrid.centerMd} ${flexGrid.middleMd}
-         ${flexGrid.colXs}`}>
-          <p className={`${firstPage.presetation}`}>
+        <div className={`${firge.presetation} ${flex.colMd6} ${flex.centerMd} ${flex.middleMd}
+         ${flex.colXs}`}>
+          <p className={`${firge.presetation}`}>
             I am a newly graduated student of the system engineering career in search of new work
             experience and new opportunities that help me develop
             in the working world <br/>
-            <p className={`${firstPage.cite}`}>"¡Work hard dream big!"</p>
+            <strong className={`${firge.cite}`}>"¡Work hard dream big!"</strong>
           </p>
         </div>
       </div>
-      <div className={`${flexGrid.col} ${flexGrid.colMd} ${flexGrid.colXs} ${flexGrid.centerMd}
-        ${flexGrid.centerXs}`}>
-        <div className={`${firstPage.myWork}`}>
+      <div className={`${flex.col} ${flex.colMd} ${flex.colXs} ${flex.centerMd}
+        ${flex.centerXs}`}>
+        <div className={`${firge.myWork}`}>
           <p>What can I do ?</p>
         </div>
-        <div className={`${firstPage.canInbox} ${flexGrid.row} ${flexGrid.colMd} ${flexGrid.colXs} 
-        ${flexGrid.aroundMd} ${flexGrid.centerXs}`}>
-          <div className={`${flexGrid.col}`}>
-            <Img className={`${firstPage.icon}`} fluid={props.data.imageIconInterface.childImageSharp.fluid}/>
-            <p className={`${firstPage.tittle}`}> Development</p>
+        <div className={`${firge.canInbox} ${flex.row} ${flex.colMd} ${flex.colXs} 
+        ${flex.aroundMd} ${flex.centerXs}`}>
+          <div className={`${flex.col}`}>
+            <Img className={`${firge.icon}`} fluid={props.data.imageIconInterface.childImageSharp.fluid}/>
+            <p className={`${firge.tittle}`}> Development</p>
             <p>Angular JS, Vue.js, Laravel,..</p>
           </div>
-          <div className={`${flexGrid.col}`}>
-            <Img className={`${firstPage.icon2}`} fluid={props.data.imageIconDesign.childImageSharp.fluid}/>
-            <p className={`${firstPage.tittle}`}> Disign</p>
+          <div className={`${flex.col}`}>
+            <Img className={`${firge.icon2}`} fluid={props.data.imageIconDesign.childImageSharp.fluid}/>
+            <p className={`${firge.tittle}`}> Disign</p>
             <p>Photoshop, Illustrator, ..</p>
           </div>
-          <div className={`${flexGrid.col}`}>
-            <Img className={`${firstPage.icon3}`} fluid={props.data.imageIconWireframe.childImageSharp.fluid}/>
-            <p className={`${firstPage.tittle}`}> Wireframe</p>
+          <div className={`${flex.col}`}>
+            <Img className={`${firge.icon3}`} fluid={props.data.imageIconWireframe.childImageSharp.fluid}/>
+            <p className={`${firge.tittle}`}> Wireframe</p>
             <p>Wireframe.cc, UxPin, Adobe Xd, ..</p>
           </div>
         </div>
       </div>
+      <ListMyWork/>
     </div>
   </Layout>
 )
