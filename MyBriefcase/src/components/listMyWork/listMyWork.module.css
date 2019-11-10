@@ -28,5 +28,36 @@
     box-shadow: -1px 6px 28px -11px rgba(0, 0, 0, 0.75);
     border-radius: 2%;
     margin-left: 20px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .conteiner-word {
+        height: 619px;
+        border-top-left-radius: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .conteiner-word p {
+        font-size: 38px;
+    }
+
+    .circle {
+        margin-bottom: 16px;
+    }
+
+    .img {
+        width: 240px;
+        height: 220px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
+@media screen and (max-width: 1000px) {
 
 }

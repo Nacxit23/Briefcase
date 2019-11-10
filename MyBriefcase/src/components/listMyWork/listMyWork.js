@@ -26,9 +26,9 @@ query {
   return (
     <div className={`${flex.containerFluid}`}>
       <div className={`${WodSty.circle}`}/>
-      <div className={`${flex.colMd} ${flex.colXs} ${WodSty.conteinerWord}`}>
+      <div className={`${flex.colMd} ${flex.colXs} ${flex.centerXs} ${WodSty.conteinerWord}`}>
         <p>My Latest Work</p>
-        <div className={`${WodSty.lastWork} ${flex.colMd} ${flex.row}`}>
+        <div className={`${WodSty.lastWork} ${flex.colMd} ${flex.centerXs} ${flex.row}`}>
           <a className={`${flex.hvrPulse}`}>
             <Img className={`${WodSty.img}`} fluid={data.vueProject.childImageSharp.fluid}/>
           </a>
