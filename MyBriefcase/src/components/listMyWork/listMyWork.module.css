@@ -56,8 +56,32 @@
 
 @media screen and (max-width: 500px) {
 
+    .conteiner-word {
+        height: 550px;
+    }
+    .conteiner-word {
+        height: 619px;
+        border-top-left-radius: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
 
+
+    .conteiner-word {
+        height: 671px;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .circle {
+        margin-left: 105px;
+    }
+
+    .img {
+        margin-bottom: 25px;
+    }
 }
