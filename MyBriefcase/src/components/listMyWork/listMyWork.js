@@ -48,18 +48,14 @@ query {
           <a data-tip data-for='developer'>
             <Img className={`${WodSty.img} ${flex.hvrShrink}`} fluid={data.vueProject.childImageSharp.fluid}/>
             <ReactTooltip className={`${WodSty.toolTip}`} id='developer'>
-              <p>
-                This programas was developer in Vue.js and Laravel 8.7
-              </p>
+              <p>This program was developer in Vue.js and Laravel 8.7</p>
               <Img className={`${WodSty.developer}`} fluid={data.developer.childImageSharp.fluid}/>
             </ReactTooltip>
           </a>
           <a data-tip data-for='developer2' className={`${flex.hvrShrink}`}>
             <Img className={`${WodSty.img}`} fluid={data.laravelProject.childImageSharp.fluid}/>
             <ReactTooltip className={`${WodSty.toolTip}`} id='developer2'>
-              <p>
-                This programas was developer in laravel
-              </p>
+              <p>This program was developer in laravel</p>
               <Img className={`${WodSty.developer}`} fluid={data.developerLara.childImageSharp.fluid}/>
             </ReactTooltip>
           </a>
