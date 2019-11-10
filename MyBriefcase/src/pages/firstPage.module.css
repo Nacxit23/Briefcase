@@ -104,27 +104,32 @@
 }
 
 .cv-button {
-    display: inline-block;
+    /*display: inline-block;*/
     font-weight: 700;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 20px 28px;
-    font-size: 16px;
+    /*text-align: center;*/
+    /*white-space: nowrap;*/
+    /*vertical-align: middle;*/
+    /*user-select: none;*/
+    /*border: 1px solid transparent;*/
+    text-decoration: none;
+    padding: 20px 45px;
+    font-size: 20px;
     line-height: 1.5;
     border-radius: 4px;
     background: rgba(243, 33, 49, .1);
     color: #F32131;
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .cv-button:hover {
     background: #F32131;
     color: #ffffff;
     transition: 1s;
+}
+.cv-button i {
+    font-size: 20px;
 }
 
 .presetation {
@@ -137,7 +142,6 @@
 
 .cite {
     font-weight: 700;
-    padding-top: 15px;
     font-family: 'Pacifico', cursive;
 }
 
