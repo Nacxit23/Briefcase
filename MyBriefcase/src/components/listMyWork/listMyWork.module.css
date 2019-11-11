@@ -25,14 +25,13 @@
 }
 
 .developer {
-    width: 200px;
-    height: 200px;
+    width: 300px;
 }
 
 .toolTip {
     color: #4A2D9A !important;
     font-family: 'Oxygen', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #FFF9F6 !important;
 }
 

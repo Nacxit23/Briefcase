@@ -23,7 +23,7 @@ query {
       }
     }
   }
-   developer: file(relativePath: {eq: "developer.jpg"}) {
+   developerVue: file(relativePath: {eq: "developerVue.jpg"}) {
     childImageSharp {
       fluid(maxWidth:800) {
          ...GatsbyImageSharpFluid
@@ -49,7 +49,7 @@ query {
             <Img className={`${WodSty.img} ${flex.hvrShrink}`} fluid={data.vueProject.childImageSharp.fluid}/>
             <ReactTooltip className={`${WodSty.toolTip}`} id='developer'>
               <p>This program was developer in Vue.js and Laravel 8.7</p>
-              <Img className={`${WodSty.developer}`} fluid={data.developer.childImageSharp.fluid}/>
+              <Img className={`${WodSty.developer}`} fluid={data.developerVue.childImageSharp.fluid}/>
             </ReactTooltip>
           </a>
           <a data-tip data-for='developer2' className={`${flex.hvrShrink}`}>
