@@ -1,0 +1,46 @@
+.mark {
+  font-size: 50px;
+  color: rgba(74, 45, 154, 0.2);
+}
+
+.sentence {
+  color: rgb(74, 45, 154);
+  font-size: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "McLaren", cursive;
+  margin-left: 256px;
+  margin-right: 246px;
+  font-weight: 700;
+}
+
+.author {
+  color: rgb(74, 45, 154);
+  font-size: 30px;
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    margin-top: 25px;
+    padding-top: 25px;
+  }
+
+  .sentence {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sentence {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sentence {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

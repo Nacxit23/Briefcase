@@ -1,276 +1,282 @@
 .first-page-style {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .paragraph-one {
-    color: #4A2D9A;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 100px;
+  color: #4a2d9a;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 100px;
 }
 
 .person-name {
-    color: #F32131;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    margin-left: 100px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-right: 104.6px;
+  color: #f32131;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 104.6px;
 }
 
 .date-person {
-    color: #727190;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 5px;
-    margin-left: 100px;
+  color: #727190;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5px;
+  margin-left: 100px;
 }
 
 .right-container {
-    background-color: #F32131;
-    background-image: radial-gradient(#F53645 40%, transparent 0), radial-gradient(#F53645 40%, transparent 0);
-    background-size: 600px;
-    background-position: 0 0, 330px 260px;
-    height: 600px;
-    margin-right: -8px;
+  background-color: #f32131;
+  background-image: radial-gradient(#f53645 40%, transparent 0),
+    radial-gradient(#f53645 40%, transparent 0);
+  background-size: 600px;
+  background-position: 0 0, 330px 260px;
+  height: 600px;
+  margin-right: -8px;
 }
 
 .profile {
-    border-radius: 50%;
-    background: #5cb85c;
-    width: 300px;
-    height: 300px;
+  border-radius: 50%;
+  background: #5cb85c;
+  width: 300px;
+  height: 300px;
 }
 
 .welcame-text {
-    font-weight: 700;
-    font-size: 60px;
-    font-family: 'Fascinate Inline', cursive;
-    color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: "Fascinate Inline", cursive;
+  color: #ffffff;
 }
 
 .hvr-bubble-right {
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
 }
 
 .hvr-bubble-right:before {
-    pointer-events: none;
-    position: absolute;
-    z-index: -1;
-    content: '';
-    border-style: solid;
-    transition-duration: .3s;
-    transition-property: transform;
-    top: calc(50% - 10px);
-    right: 0;
-    border-width: 50px 0 50px 50px;
-    border-color: transparent transparent transparent #ffffff;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  border-style: solid;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  top: calc(50% - 10px);
+  right: 0;
+  border-width: 50px 0 50px 50px;
+  border-color: transparent transparent transparent #ffffff;
 }
 
-.hvr-bubble-right:active:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:hover:before {
-    transform: translateX(30px)
+.hvr-bubble-right:active:before,
+.hvr-bubble-right:focus:before,
+.hvr-bubble-right:hover:before {
+  transform: translateX(30px);
 }
 
 /*second div information for me*/
 .information-from-me {
-    background: #FFF9F6;
-    height: 500px;
-    border-bottom-right-radius: 250px;
+  background: #fff9f6;
+  height: 500px;
+  border-bottom-right-radius: 250px;
 }
 
 .my-biography {
-    background: #FFF4F1;
-    border-bottom-right-radius: 650px;
-    border-bottom-left-radius: 650px;
-    height: 500px;
+  background: #fff4f1;
+  border-bottom-right-radius: 650px;
+  border-bottom-left-radius: 650px;
+  height: 500px;
 }
 
 .biography-text {
-    color: #4A2D9A;
-    font-weight: 700;
-    font-size: 70px;
-    font-family: 'Fira Sans', sans-serif;
+  color: #4a2d9a;
+  font-weight: 700;
+  font-size: 70px;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .cv-button {
-    /*display: inline-block;*/
-    font-weight: 700;
-    /*text-align: center;*/
-    /*white-space: nowrap;*/
-    /*vertical-align: middle;*/
-    /*user-select: none;*/
-    /*border: 1px solid transparent;*/
-    text-decoration: none;
-    padding: 20px 45px;
-    font-size: 20px;
-    line-height: 1.5;
-    border-radius: 4px;
-    background: rgba(243, 33, 49, .1);
-    color: #F32131;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px 45px;
+  font-size: 20px;
+  line-height: 1.5;
+  border-radius: 4px;
+  background: rgba(243, 33, 49, 0.1);
+  color: #f32131;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .cv-button:hover {
-    background: #F32131;
-    color: #ffffff;
-    transition: 1s;
+  background: #f32131;
+  color: #ffffff;
+  transition: 1s;
 }
+
 .cv-button i {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .presetation {
-    text-align: justify-all;
-    font-size: 25px;
-    color: #4A2D9A;
-    font-weight: 500;
-    font-family: 'Fira Sans', sans-serif;
+  text-align: justify-all;
+  font-size: 25px;
+  color: #4a2d9a;
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .cite {
-    font-weight: 700;
-    font-family: 'Pacifico', cursive;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
 }
 
 /*!*third div information for me*!*/
 .my-work {
-    color: #4A2D9A;
-    font-weight: 700;
-    font-size: 72px;
-    font-family: 'Oxygen', sans-serif;
+  color: #4a2d9a;
+  font-weight: 700;
+  font-size: 72px;
+  font-family: "Oxygen", sans-serif;
 }
 
 .can-inbox {
-    color: rgba(114, 113, 144, 0.5);
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+  color: rgba(114, 113, 144, 0.5);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
 }
 
 .icon {
-    width: 150px;
-    margin-left: 55px;
-    margin-bottom: -15px;
+  width: 150px;
+  margin-left: 55px;
+  margin-bottom: -15px;
 }
 
 .icon2 {
-    width: 150px;
-    margin-left: 39px;
-    margin-bottom: -15px;
+  width: 150px;
+  margin-left: 39px;
+  margin-bottom: -15px;
 }
 
 .icon3 {
-    width: 150px;
-    margin-left: 75px;
-    margin-bottom: -15px;
+  width: 150px;
+  margin-left: 75px;
+  margin-bottom: -15px;
 }
 
 .tittle {
-    color: #4A2D9A;
-    font-weight: 800;
-    font-size: 30px;
-    font-family: 'Oxygen', sans-serif;
-    margin-bottom: -10px;
+  color: #4a2d9a;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Oxygen", sans-serif;
+  margin-bottom: -10px;
 }
 
+.like {
+  color: #4a2d9a !important;
+  font-family: "Oxygen", sans-serif;
+  font-size: 20px;
+  background-color: #fff9f6 !important;
+}
+
+.imgToolTip {
+  width: 200px;
+}
 @media screen and (max-width: 400px) {
+  .information-from-me {
+    height: 900px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 
-    .information-from-me {
-        height: 900px;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
+  .paragraph-one {
+    font-size: 40px;
+    margin-left: 20px;
+  }
 
-    .paragraph-one {
-        font-size: 40px;
-        margin-left: 20px;
-    }
+  .person-name {
+    font-size: 50px;
+    margin-left: 20px;
+  }
 
-    .person-name {
-        font-size: 50px;
-        margin-left: 20px;
-    }
+  .date-person {
+    margin-left: 20px;
+  }
 
-    .date-person {
-        margin-left: 20px;
-    }
+  .right-container {
+    margin-right: 1px;
+  }
 
-    .right-container {
-        margin-right: 1px;
-    }
+  .biography-text {
+    font-size: 50px;
+  }
 
-    .biography-text {
-        font-size: 50px;
-    }
+  .information-from-me .right-container {
+    margin: 0 0;
+  }
 
-    .information-from-me .right-container {
-        margin: 0 0;
-    }
+  .my-biography {
+    border-bottom-right-radius: 108px;
+    border-bottom-left-radius: 96px;
+    height: 391px;
+  }
 
-    .my-biography {
-        border-bottom-right-radius: 108px;
-        border-bottom-left-radius: 96px;
-        height: 391px;
-    }
-
-    .my-work {
-        font-size: 40px;
-        margin-left: 15px;
-    }
+  .my-work {
+    font-size: 40px;
+    margin-left: 15px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .paragraph-one {
-        font-size: 40px;
-        margin-left: 20px;
-    }
+  .paragraph-one {
+    font-size: 40px;
+    margin-left: 20px;
+  }
 
-    .person-name {
-        font-size: 50px;
-        margin-left: 20px;
-    }
+  .person-name {
+    font-size: 50px;
+    margin-left: 20px;
+  }
 
-    .date-person {
-        margin-left: 20px;
-    }
+  .date-person {
+    margin-left: 20px;
+  }
 
-    .information-from-me {
-        height: 900px;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
+  .information-from-me {
+    height: 900px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 
-    .biography-text {
-        font-size: 60px;
-    }
+  .biography-text {
+    font-size: 60px;
+  }
 
-    .information-from-me .right-container {
-        margin: 0 0;
-    }
+  .information-from-me .right-container {
+    margin: 0 0;
+  }
 
-    .my-biography {
-        border-bottom-right-radius: 108px;
-        border-bottom-left-radius: 96px;
-        height: 391px;
-    }
+  .my-biography {
+    border-bottom-right-radius: 108px;
+    border-bottom-left-radius: 96px;
+    height: 391px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-
-    .right-container {
-        margin: 0 0;
-    }
+  .right-container {
+    margin: 0 0;
+  }
 }
