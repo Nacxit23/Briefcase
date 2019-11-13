@@ -1,17 +1,17 @@
 .mark {
-  font-size: 50px;
   color: rgba(74, 45, 154, 0.2);
+  font-size: 50px;
 }
 
 .sentence {
   color: rgb(74, 45, 154);
-  font-size: 30px;
-  margin-left: 0;
-  margin-right: 0;
   font-family: "McLaren", cursive;
-  margin-left: 256px;
-  margin-right: 246px;
+  font-size: 30px;
   font-weight: 700;
+  margin-left: 0;
+  margin-left: 256px;
+  margin-right: 0;
+  margin-right: 246px;
 }
 
 .author {
