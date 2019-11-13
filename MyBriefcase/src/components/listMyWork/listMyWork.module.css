@@ -1,28 +1,29 @@
 .circle {
-  width: 80px;
-  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(254, 195, 106, 0.2),
+  0 6px 20px 0 rgba(54, 195, 106, 0.19);
   background: #fec36a;
   border-radius: 50%;
+  height: 80px;
   margin-left: 50px;
-  box-shadow: 0 4px 8px 0 rgba(254, 195, 106, 0.2),
-    0 6px 20px 0 rgba(54, 195, 106, 0.19);
+  width: 80px;
+ 
 }
 
 .conteiner-word {
   background: linear-gradient(to bottom, #f32131 50%, #ffffff 50%);
-  height: 550px;
   border-top-left-radius: 250px;
+  height: 550px;
   margin-bottom: 8px;
   padding-left: 150px;
   padding-top: 70px;
 }
 
 .img {
-  width: 360px;
-  height: 260px;
-  box-shadow: -1px 6px 28px -11px rgba(0, 0, 0, 0.75);
   border-radius: 2%;
+  box-shadow: -1px 6px 28px -11px rgba(0, 0, 0, 0.75);
+  height: 260px;
   margin-left: 20px;
+  width: 360px;
 }
 
 .developer {
@@ -30,10 +31,10 @@
 }
 
 .toolTip {
+  background-color: #fff9f6 !important;
   color: #4a2d9a !important;
   font-family: "Oxygen", sans-serif;
   font-size: 20px;
-  background-color: #fff9f6 !important;
 }
 
 .tittle {
@@ -44,8 +45,8 @@
 
 @media screen and (max-width: 400px) {
   .conteiner-word {
-    height: 619px;
     border-top-left-radius: 0;
+    height: 619px;
     padding-left: 0;
     padding-top: 0;
   }
@@ -61,9 +62,9 @@
   }
 
   .img {
-    width: 240px;
     height: 220px;
     margin-top: 20px;
+    width: 240px;
   }
 }
 
@@ -73,8 +74,8 @@
   }
 
   .conteiner-word {
-    height: 619px;
     border-top-left-radius: 0;
+    height: 619px;
     padding-left: 0;
     padding-top: 0;
   }
