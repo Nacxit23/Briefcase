@@ -1,36 +1,36 @@
 .first-page-style {
-  margin-right: 0;
   margin-left: 0;
-  padding-right: 0;
+  margin-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .paragraph-one {
   color: #4a2d9a;
+  font-family: "Open Sans", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
   margin-left: 100px;
 }
 
 .person-name {
   color: #f32131;
   font-family: "Oxygen", sans-serif;
-  font-weight: 700;
   font-size: 80px;
-  margin-left: 100px;
-  margin-top: 10px;
+  font-weight: 700;
   margin-bottom: 5px;
+  margin-left: 100px;
   margin-right: 104.6px;
+  margin-top: 10px;
 }
 
 .date-person {
   color: #727190;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 5px;
   margin-left: 100px;
+  margin-top: 5px;
 }
 
 .right-container {
@@ -44,39 +44,39 @@
 }
 
 .profile {
-  border-radius: 50%;
   background: #5cb85c;
-  width: 300px;
+  border-radius: 50%;
   height: 300px;
+  width: 300px;
 }
 
 .welcame-text {
-  font-weight: 700;
-  font-size: 60px;
-  font-family: "Fascinate Inline", cursive;
   color: #ffffff;
+  font-family: "Fascinate Inline", cursive;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .hvr-bubble-right {
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
   position: relative;
+  transform: perspective(1px) translateZ(0);
+  vertical-align: middle;
 }
 
 .hvr-bubble-right:before {
+  border-color: transparent transparent transparent #ffffff;
+  border-style: solid;
+  border-width: 50px 0 50px 50px;
+  content: "";
   pointer-events: none;
   position: absolute;
-  z-index: -1;
-  content: "";
-  border-style: solid;
+  right: 0;
+  top: calc(50% - 10px);
   transition-duration: 0.3s;
   transition-property: transform;
-  top: calc(50% - 10px);
-  right: 0;
-  border-width: 50px 0 50px 50px;
-  border-color: transparent transparent transparent #ffffff;
+  z-index: -1;
 }
 
 .hvr-bubble-right:active:before,
@@ -88,36 +88,36 @@
 /*second div information for me*/
 .information-from-me {
   background: #fff9f6;
-  height: 500px;
   border-bottom-right-radius: 250px;
+  height: 500px;
 }
 
 .my-biography {
   background: #fff4f1;
-  border-bottom-right-radius: 650px;
   border-bottom-left-radius: 650px;
+  border-bottom-right-radius: 650px;
   height: 500px;
 }
 
 .biography-text {
   color: #4a2d9a;
-  font-weight: 700;
-  font-size: 70px;
   font-family: "Fira Sans", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
 }
 
 .cv-button {
-  font-weight: 700;
-  text-decoration: none;
-  padding: 20px 45px;
-  font-size: 20px;
-  line-height: 1.5;
-  border-radius: 4px;
   background: rgba(243, 33, 49, 0.1);
-  color: #f32131;
-  border-top-left-radius: 80px;
   border-bottom-right-radius: 80px;
+  border-radius: 4px;
+  border-top-left-radius: 80px;
+  color: #f32131;
   font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 20px 45px;
+  text-decoration: none;
 }
 
 .cv-button:hover {
@@ -131,11 +131,11 @@
 }
 
 .presetation {
-  text-align: justify-all;
-  font-size: 25px;
   color: #4a2d9a;
-  font-weight: 500;
   font-family: "Fira Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: justify-all;
 }
 
 .cite {
@@ -159,36 +159,36 @@
 }
 
 .icon {
-  width: 150px;
-  margin-left: 55px;
   margin-bottom: -15px;
+  margin-left: 55px;
+  width: 150px;
 }
 
 .icon2 {
-  width: 150px;
-  margin-left: 39px;
   margin-bottom: -15px;
+  margin-left: 39px;
+  width: 150px;
 }
 
 .icon3 {
-  width: 150px;
-  margin-left: 75px;
   margin-bottom: -15px;
+  margin-left: 75px;
+  width: 150px;
 }
 
 .tittle {
   color: #4a2d9a;
-  font-weight: 800;
-  font-size: 30px;
   font-family: "Oxygen", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
   margin-bottom: -10px;
 }
 
 .like {
+  background-color: #fff9f6 !important;
   color: #4a2d9a !important;
   font-family: "Oxygen", sans-serif;
   font-size: 20px;
-  background-color: #fff9f6 !important;
 }
 
 .imgToolTip {
@@ -196,9 +196,9 @@
 }
 @media screen and (max-width: 400px) {
   .information-from-me {
-    height: 900px;
-    border-top-left-radius: 0;
     border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    height: 900px;
   }
 
   .paragraph-one {
@@ -255,9 +255,9 @@
   }
 
   .information-from-me {
-    height: 900px;
-    border-top-left-radius: 0;
     border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    height: 900px;
   }
 
   .biography-text {
@@ -269,8 +269,8 @@
   }
 
   .my-biography {
-    border-bottom-right-radius: 108px;
     border-bottom-left-radius: 96px;
+    border-bottom-right-radius: 108px;
     height: 391px;
   }
 }
