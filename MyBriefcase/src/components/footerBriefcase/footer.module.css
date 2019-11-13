@@ -2,15 +2,15 @@
   background-color: #492d9d;
   border-top: #f32131 solid 10px;
   color: #ffffff;
-  padding: 10px 15px;
   margin: -7.9px -7.8px;
+  padding: 10px 15px;
 }
 
 .footer-text {
+  color: #4a2d9a;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  color: #4a2d9a;
 }
 
 .box-information {
@@ -26,13 +26,13 @@
 }
 
 .hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
   position: relative;
+  transform: perspective(1px) translateZ(0);
   transition-duration: 0.3s;
   transition-property: transform;
+  vertical-align: middle;
 }
 
 .hvr-float-shadow:before {
