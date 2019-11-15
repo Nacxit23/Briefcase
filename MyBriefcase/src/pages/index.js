@@ -4,7 +4,12 @@ import firge from "./firstPage.module.css"
 import pdFile from "../../assets/Nacxit_Armando_Mayorga_cv.pdf"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import { FaFilePdf } from "react-icons/fa"
+import {
+  FaFilePdf,
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaLinkedin,
+} from "react-icons/fa"
 import ListMyWork from "../components/listMyWork/listMyWork"
 import Layout from "../components/layout/layout"
 import ReactTooltip from "react-tooltip"
@@ -23,6 +28,17 @@ const IndexPage = props => (
           <p className={`${firge.datePerson}`}>
             Freelance Backend/Frondend Developer{" "}
           </p>
+          <div className={`${flex.row} ${flex.centerXs} ${flex.centerMd}`}>
+            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="">
+              <FaFacebookSquare />
+            </a>
+            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="">
+              <FaTwitterSquare />
+            </a>
+            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="">
+              <FaLinkedin />
+            </a>
+          </div>
         </div>
         <div
           data-tip
@@ -110,7 +126,9 @@ const IndexPage = props => (
           </div>
         </div>
       </div>
+      <section id="seccion1">
       <ListMyWork />
+      </section>
       <SentenceBriefcase />
     </div>
   </Layout>

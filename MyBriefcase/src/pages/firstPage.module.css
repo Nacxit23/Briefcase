@@ -194,6 +194,12 @@
 .imgToolTip {
   width: 200px;
 }
+
+.firstIcon {
+  font-size: 50px;
+  color: #606898;
+}
+
 @media screen and (max-width: 400px) {
   .information-from-me {
     border-bottom-right-radius: 0;
