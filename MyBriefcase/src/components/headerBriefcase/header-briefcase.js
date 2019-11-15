@@ -43,7 +43,7 @@ export default () => {
                 ABOUT
               </a>
               <a
-                href="#"
+                href="#seccion1"
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
               >
                 WORK
