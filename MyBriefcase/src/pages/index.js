@@ -73,7 +73,7 @@ const IndexPage = props => (
           >
             <i>
               <FaFilePdf />
-            </i>{" "}
+            </i>
             View CV
           </a>
         </div>
@@ -127,7 +127,7 @@ const IndexPage = props => (
         </div>
       </div>
       <section id="seccion1">
-      <ListMyWork />
+        <ListMyWork />
       </section>
       <SentenceBriefcase />
     </div>

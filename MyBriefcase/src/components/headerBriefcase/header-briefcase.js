@@ -1,7 +1,7 @@
 import React from "react"
 import headStyle from "./header.module.css"
 import flex from "../../pages/globalStyle/flexboxgrid.min.module.css"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql,Link } from "gatsby"
 import Img from "gatsby-image"
 
 export default () => {
@@ -35,13 +35,12 @@ export default () => {
             className={`${flex.centerXs} ${flex.colXs} ${headStyle.navConteiner} `}
           >
             <nav className={`${headStyle.menu}`}>
-              <a
-                href="#"
+              <Link
+                to="/onme/"
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
               >
-                {" "}
                 ABOUT
-              </a>
+              </Link>
               <a
                 href="#seccion1"
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
