@@ -1,7 +1,9 @@
 import React from "react"
 import headStyle from "./header.module.css"
 import flex from "../../pages/globalStyle/flexboxgrid.min.module.css"
-import { useStaticQuery, graphql,Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 import Img from "gatsby-image"
 
 export default () => {
@@ -10,12 +12,8 @@ export default () => {
       __typename
       file(relativePath: { eq: "nacxitDevelop.jpg" }) {
         childImageSharp {
-          fluid {
-            aspectRatio
-            base64
-            sizes
-            src
-            srcSet
+           fluid(maxWidth: 800) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -26,27 +24,30 @@ export default () => {
       <div className={`${headStyle.header}`}>
         <div className={`${flex.row} ${flex.colXs} ${flex.middleXs} `}>
           <div className={`${headStyle.logo} ${flex.colXs6}`}>
-            <Img
-              fluid={data.file.childImageSharp.fluid}
-              className={`${headStyle.imgPretty}`}
-            />
+            <AniLink fade to={"/"}>
+              <Img
+                fluid={data.file.childImageSharp.fluid}
+                className={`${headStyle.imgPretty}`}
+              />
+            </AniLink>
           </div>
           <div
             className={`${flex.centerXs} ${flex.colXs} ${headStyle.navConteiner} `}
           >
             <nav className={`${headStyle.menu}`}>
-              <Link
-                to="/onme/"
+              <AniLink
+                fade
+                to="/onMe/"
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
               >
                 ABOUT
-              </Link>
-              <a
-                href="#seccion1"
+              </AniLink>
+              <Link
+                to="/#seccion1"
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
               >
                 WORK
-              </a>
+              </Link>
               <a
                 href="#"
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}

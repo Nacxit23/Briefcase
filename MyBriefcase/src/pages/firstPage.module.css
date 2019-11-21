@@ -199,6 +199,11 @@
   font-size: 50px;
   color: #606898;
 }
+.col-md-expecial {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%
+}
 
 @media screen and (max-width: 400px) {
   .information-from-me {

@@ -30,19 +30,16 @@ export default () => {
           <div className={`${flexGrid.row} ${footerStyle.iconBox}`}>
             <a
               className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`}
-              href=""
             >
               <FaFacebookSquare />
             </a>
             <a
               className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`}
-              href=""
             >
               <FaTwitterSquare />
             </a>
             <a
               className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`}
-              href=""
             >
               <FaLinkedin />
             </a>

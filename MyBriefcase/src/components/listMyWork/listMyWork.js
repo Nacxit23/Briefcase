@@ -61,7 +61,7 @@ export default () => {
               />
             </ReactTooltip>
           </a>
-          <a data-tip data-for="developer2" className={`${flex.hvrShrink}`}>
+          <a data-tip data-for="developer2" className={`${flex.hvrShrink}`} href="https://github.com/Nacxit23/AutoRescue">
             <Img
               className={`${WodSty.img}`}
               fluid={data.laravelProject.childImageSharp.fluid}
