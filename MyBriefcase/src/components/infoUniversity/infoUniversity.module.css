@@ -1,0 +1,32 @@
+.uni-style {
+  background-color: #fff9f6;
+  color: #4a2d9a;
+  height: 350px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.sentence {
+  color: rgba(74, 45, 154, 0.6);
+  font-family: "McLaren", cursive;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: justify-all;
+}
+
+.my-life {
+  padding-top: 80px;
+}
+
+.logo-conteiner {
+  padding: 82px 266px;
+}
+
+.icon-size {
+  color: rgba(74, 45, 154, 0.6);
+  font-size: 70px;
+}
+
+.logo {
+  width: 300px;
+}
