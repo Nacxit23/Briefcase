@@ -1,9 +1,19 @@
-.uni-style {
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+.contener {
   background-color: #fff9f6;
+  background-image: radial-gradient(#fff4f1 40%, transparent 0),
+    radial-gradient(#fff4f1 40%, transparent 0);
+  background-size: 600px;
+  background-position: 0 0, 330px 260px;
+}
+
+.uni-style {
   color: #4a2d9a;
-  height: 350px;
   margin-left: -8px;
   margin-right: -8px;
+  margin-bottom: 66px;
 }
 
 .sentence {
@@ -18,9 +28,9 @@
   padding-top: 80px;
 }
 
-.logo-conteiner {
-  padding: 82px 266px;
-}
+/*.logo-conteiner {*/
+/*  */
+/*}*/
 
 .icon-size {
   color: rgba(74, 45, 154, 0.6);
@@ -29,4 +39,125 @@
 
 .logo {
   width: 300px;
+}
+
+.title-knowledge {
+  color: #4a2d9a;
+  font-family: "Calistoga", cursive;
+  font-weight: 400;
+}
+
+.icon-conteiner {
+  padding: 0 114px;
+}
+.icon {
+  font-size: 70px;
+}
+.icon-work-angular {
+  font-size: 70px;
+  color: #f32131;
+}
+
+.icon-work-vue {
+  font-size: 70px;
+  color: #41b883;
+}
+
+.icon-laravel {
+  color: #f05340;
+  font-size: 70px;
+}
+.icon-java {
+  color: #e77102;
+  font-size: 70px;
+}
+
+.icon-php {
+  color: #787cb4;
+  font-size: 70px;
+}
+
+.icon-gatsby {
+  width: 80px;
+  margin-left: 58px;
+  margin-bottom: 10px;
+}
+
+.icon-c {
+  width: 65px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.icon-photo {
+  width: 80px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+
+.icon-graphQl {
+  width: 80px;
+  margin-left: 28px;
+  margin-bottom: 10px;
+}
+
+.icon-js {
+  color: #d1b431;
+  font-size: 70px;
+}
+
+.icon-css {
+  color: #264DE4;
+  font-size: 70px;
+}
+
+.icon-html{
+  color: #F16524;
+  font-size: 70px;
+}
+
+.name-framework {
+  color: rgba(114, 113, 144, 0.5);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+  margin-top: 0;
+}
+
+.tittle-two {
+  color: #f32131;
+  font-family: "Alatsi", sans-serif;
+  margin-top: 1cm;
+}
+
+.name-work {
+  color: #4a2d9a;
+  font-family: "Oxygen", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.logo-uni-conteiner {
+  height: 120px;
+}
+
+@media screen and (max-width: 400px) {
+  .icon-gatsby {
+    margin-left: 45px;
+  }
+
+  .icon-box-icon-info {
+    /* margin-left: 20px; */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .icon-gatsby {
+    margin-left: 45px;
+  }
+
+  
+  .box-icon-inf {
+    margin-left: 25px;
+  }
 }

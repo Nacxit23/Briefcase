@@ -50,12 +50,6 @@ export default () => {
               </Link>
               <a
                 href="#"
-                className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
-              >
-                PORTAFOLIO
-              </a>
-              <a
-                href="#"
                 className={`${headStyle.lastItem} ${headStyle.hvrGlow}`}
               >
                 HIRE ME
