@@ -28,10 +28,6 @@
   padding-top: 80px;
 }
 
-/*.logo-conteiner {*/
-/*  */
-/*}*/
-
 .icon-size {
   color: rgba(74, 45, 154, 0.6);
   font-size: 70px;
@@ -50,9 +46,11 @@
 .icon-conteiner {
   padding: 0 114px;
 }
+
 .icon {
   font-size: 70px;
 }
+
 .icon-work-angular {
   font-size: 70px;
   color: #f32131;
@@ -67,6 +65,7 @@
   color: #f05340;
   font-size: 70px;
 }
+
 .icon-java {
   color: #e77102;
   font-size: 70px;
@@ -88,9 +87,22 @@
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
 .icon-photo {
   width: 80px;
-  margin-left: 45px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.icon-illus {
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.icon-anima {
+  width: 80px;
+  margin-left: 60px;
   margin-bottom: 10px;
 }
 
@@ -142,22 +154,36 @@
 }
 
 @media screen and (max-width: 400px) {
+
   .icon-gatsby {
     margin-left: 45px;
   }
 
-  .icon-box-icon-info {
-    /* margin-left: 20px; */
+  .icon-anima {
+    margin-left: 10px;
   }
+
 }
 
 @media screen and (max-width: 500px) {
+
   .icon-gatsby {
     margin-left: 45px;
   }
 
-  
   .box-icon-inf {
     margin-left: 25px;
+  }
+
+  .icon-photo {
+    margin-left: 47px;
+  }
+
+  .icon-illus {
+    margin-left: 40px;
+  }
+
+  .icon-anima {
+    margin-left: 45px;
   }
 }

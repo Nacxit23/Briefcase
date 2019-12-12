@@ -24,7 +24,7 @@ export default () => {
     graphqlIcon: { childImageSharp: graphqlIcon },
     photoshop: {childImageSharp: photoIcon},
     illustrator: {childImageSharp: illustratorIcon},
-    animated: {childImageSharp: animatedIcon}
+    animate: {childImageSharp: animatedIcon},
   } = useStaticQuery(logo)
 
   return (
@@ -56,7 +56,7 @@ export default () => {
         <h1 className={infoUni.titleKnowledge}>Knowledge that I handle</h1>
         <h2 className={infoUni.tittleTwo}>FrameWork</h2>
         <div
-          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${infoUni.iconConteiner}`}
+          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${flex.centerXs} ${infoUni.iconConteiner}`}
         >
           <div>
             <h4 className={infoUni.nameWork}> ANGULAR</h4>
@@ -87,14 +87,14 @@ export default () => {
         </div>
         <h2 className={infoUni.tittleTwo}>Programming language</h2>
         <div
-          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${infoUni.iconConteiner}`}
+          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${flex.centerXs} ${infoUni.iconConteiner}`}
         >
-          <div className={infoUni.boxIconInf}>
+          <div>
             <h4 className={infoUni.nameWork}> C++</h4>
             <Img className={`${infoUni.iconC}`} fluid={logoCPlus.fluid} />
             <p className={`${infoUni.nameFramework}`}>Medium</p>
           </div>
-          <div className={infoUni.boxIconInf}>
+          <div>
             <h4 className={infoUni.nameWork}> JAVA</h4>
             <i className={`${flex.colMd4} ${infoUni.iconJava}`}>
               <FaJava />
@@ -118,9 +118,9 @@ export default () => {
         </div>
         <h2 className={infoUni.tittleTwo}>Query language</h2>
         <div
-          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${infoUni.iconConteiner}`}
+          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${flex.centerXs} ${infoUni.iconConteiner}`}
         >
-          <div className={infoUni.boxIconInf}>
+          <div>
             <h4 className={infoUni.nameWork}> GraphQl</h4>
             <Img className={`${infoUni.iconGraphQl}`} fluid={graphqlIcon.fluid} />
             <p className={`${infoUni.nameFramework}`}>Medium</p>
@@ -129,7 +129,7 @@ export default () => {
         </div>
         <h2 className={infoUni.tittleTwo}>Layout language and style</h2>
         <div
-          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${infoUni.iconConteiner}`}
+          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${flex.centerXs} ${infoUni.iconConteiner}`}
         >
           <div>
             <h4 className={infoUni.nameWork}> CSS3</h4>
@@ -148,7 +148,7 @@ export default () => {
         </div>
         <h2 className={infoUni.tittleTwo}>Design programs</h2>
         <div
-          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${infoUni.iconConteiner}`}
+          className={`${flex.row} ${flex.colMd} ${flex.aroundMd} ${flex.centerXs} ${infoUni.iconConteiner}`}
         >
           <div>
             <h4 className={infoUni.nameWork}> PhotoShop CC</h4>
@@ -156,13 +156,13 @@ export default () => {
             <p className={`${infoUni.nameFramework}`}>Medium</p>
           </div>
           <div>
-            <h4 className={infoUni.nameWork}> Illustrator</h4>
-            <Img className={`${infoUni.iconPhoto}`} fluid={illustratorIcon.fluid} />
+            <h4 className={infoUni.nameWork}> Illustrator CC</h4>
+            <Img className={`${infoUni.iconIllus}`} fluid={illustratorIcon.fluid} />
             <p className={`${infoUni.nameFramework}`}>Basic</p>
           </div>
           <div>
             <h4 className={infoUni.nameWork}> Animate CC</h4>
-            <Img className={`${infoUni.iconPhoto}`} fluid={animatedIcon.fluid} />
+             <Img className={`${infoUni.iconAnima}`} fluid={animatedIcon.fluid} />
             <p className={`${infoUni.nameFramework}`}>Basic</p>
           </div>
         </div>
@@ -207,19 +207,19 @@ export const logo = graphql`
         }
       }
     }
-    illustrator: file(relativePath: { eq: "illustrator.png" }) {
+    illustrator: file(relativePath: { eq: "Illustrator.png" }) {
       childImageSharp {
         fluid(maxWidth: 400) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-     animate: file(relativePath: { eq: "animate.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
+      animate: file(relativePath: { eq: "animate.png" }) {
+       childImageSharp {
+         fluid(maxWidth: 400) {
+           ...GatsbyImageSharpFluid
+         }
+       }
+     }
   }
 `
