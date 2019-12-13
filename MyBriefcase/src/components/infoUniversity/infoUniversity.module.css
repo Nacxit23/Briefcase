@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather&display=swap');
 
 .contener {
   background-color: #fff9f6;
@@ -43,8 +44,51 @@
   font-weight: 400;
 }
 
+.conteinerSkin {
+  border-top: rgba(114, 113, 144, 0.5) solid 1px;
+}
+
 .icon-conteiner {
   padding: 0 114px;
+}
+
+.experience {
+  background-color: #fff9f6;
+}
+
+.ball {
+  background: rgba(179, 220, 237, 1);
+  background: linear-gradient(
+    to right,
+    rgba(179, 220, 237, 1) 0%,
+    rgba(41, 185, 229, 1) 25%,
+    rgba(38, 76, 228, 1) 100%
+  );
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.title-three {
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+  color: rgb(74, 45, 154);
+  font-size: 47px;
+}
+
+.company-name {
+  color: rgb(74, 45, 154);
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.project-info {
+  color: rgb(74, 45, 154);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justify;
 }
 
 .icon {
@@ -100,6 +144,12 @@
   margin-bottom: 10px;
 }
 
+.sqlServer {
+  width: 80px;
+  margin-left: 52px;
+  margin-bottom: 10px;
+}
+
 .icon-anima {
   width: 80px;
   margin-left: 60px;
@@ -118,12 +168,12 @@
 }
 
 .icon-css {
-  color: #264DE4;
+  color: #264de4;
   font-size: 70px;
 }
 
-.icon-html{
-  color: #F16524;
+.icon-html {
+  color: #f16524;
   font-size: 70px;
 }
 
@@ -154,7 +204,6 @@
 }
 
 @media screen and (max-width: 400px) {
-
   .icon-gatsby {
     margin-left: 45px;
   }
@@ -163,10 +212,14 @@
     margin-left: 10px;
   }
 
+  .sqlServer {
+    width: 80px;
+    margin-left: 47px;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-
   .icon-gatsby {
     margin-left: 45px;
   }
@@ -185,5 +238,11 @@
 
   .icon-anima {
     margin-left: 45px;
+  }
+
+  .sqlServer {
+    width: 80px;
+    margin-left: 47px;
+    margin-bottom: 10px;
   }
 }

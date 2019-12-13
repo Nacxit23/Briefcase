@@ -12,7 +12,7 @@ export default () => {
       __typename
       file(relativePath: { eq: "nacxitDevelop.jpg" }) {
         childImageSharp {
-           fluid(maxWidth: 800) {
+          fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -24,7 +24,11 @@ export default () => {
       <div className={`${headStyle.header}`}>
         <div className={`${flex.row} ${flex.colXs} ${flex.middleXs} `}>
           <div className={`${headStyle.logo} ${flex.colXs6}`}>
-            <AniLink fade to={"/"}>
+            <AniLink
+              swipe
+              to={"/"}
+              duration={1}
+            >
               <Img
                 fluid={data.file.childImageSharp.fluid}
                 className={`${headStyle.imgPretty}`}
@@ -36,8 +40,9 @@ export default () => {
           >
             <nav className={`${headStyle.menu}`}>
               <AniLink
-                fade
+                cover
                 to="/onMe/"
+                duration={1}
                 className={`${headStyle.item} ${headStyle.hvrUnderlineReveal}`}
               >
                 ABOUT
