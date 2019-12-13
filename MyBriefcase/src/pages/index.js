@@ -1,7 +1,7 @@
 import React from "react"
 import flex from "./globalStyle/flexboxgrid.min.module.css"
 import firge from "./firstPage.module.css"
-import pdFile from "../../assets/Nacxit_Armando_Mayorga_cv.pdf"
+import pdFile from "../../documents/Nacxit_Armando_Mayorga_cv.pdf"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import {
