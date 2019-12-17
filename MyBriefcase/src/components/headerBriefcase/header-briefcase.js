@@ -3,7 +3,6 @@ import headStyle from "./header.module.css"
 import flex from "../../pages/globalStyle/flexboxgrid.min.module.css"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-
 import Img from "gatsby-image"
 
 export default () => {
@@ -24,11 +23,7 @@ export default () => {
       <div className={`${headStyle.header}`}>
         <div className={`${flex.row} ${flex.colXs} ${flex.middleXs} `}>
           <div className={`${headStyle.logo} ${flex.colXs6}`}>
-            <AniLink
-              swipe
-              to={"/"}
-              duration={1}
-            >
+            <AniLink cover to={"/"} duration={1}>
               <Img
                 fluid={data.file.childImageSharp.fluid}
                 className={`${headStyle.imgPretty}`}
@@ -53,12 +48,15 @@ export default () => {
               >
                 WORK
               </Link>
-              <a
-                href="#"
+              <Link
+                to="/modalForm/"
+                state={{
+                  modal: true,
+                }}
                 className={`${headStyle.lastItem} ${headStyle.hvrGlow}`}
               >
                 HIRE ME
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

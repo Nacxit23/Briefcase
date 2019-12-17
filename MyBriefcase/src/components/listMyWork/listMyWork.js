@@ -48,7 +48,7 @@ export default () => {
         <div
           className={`${WodSty.lastWork} ${flex.colMd} ${flex.centerXs} ${flex.row}`}
         >
-          <a data-tip data-for="developer">
+          <a data-tip data-for="developer" href="/#">
             <Img
               className={`${WodSty.img} ${flex.hvrShrink}`}
               fluid={data.vueProject.childImageSharp.fluid}

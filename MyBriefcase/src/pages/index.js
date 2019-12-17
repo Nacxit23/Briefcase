@@ -29,13 +29,13 @@ const IndexPage = props => (
             Freelance Backend/Frondend Developer{" "}
           </p>
           <div className={`${flex.row} ${flex.centerXs} ${flex.centerMd}`}>
-            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="">
+            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="https://www.facebook.com/Nacxit-Developer-109159920582733/">
               <FaFacebookSquare />
             </a>
-            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="">
+            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="https://twitter.com/NacxitE">
               <FaTwitterSquare />
             </a>
-            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="">
+            <a className={`${firge.firstIcon} ${flex.hvrHang}`} href="https://www.linkedin.com/in/nacxit-mayorga-b0906a195">
               <FaLinkedin />
             </a>
           </div>

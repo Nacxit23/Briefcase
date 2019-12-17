@@ -211,7 +211,7 @@ export default () => {
       </div>
       <div className={`${flex.col} ${flex.colMd13} ${infoUni.experience}`}>
         <div className={infoUni.ball}></div>
-        <div className={`${flex.col} ${flex.colMd} ${flex.colXs} ${flex.centerXs}`}>
+        <div className={`${flex.col} ${flex.colMd} ${flex.startMd} ${flex.colXs} ${flex.centerXs}`}>
           <p className={`${infoUni.titleThree} ${flex.colMdOffset5}`}>
             ¡Experience!
           </p>

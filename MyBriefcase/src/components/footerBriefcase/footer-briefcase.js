@@ -30,16 +30,19 @@ export default () => {
           <div className={`${flexGrid.row} ${footerStyle.iconBox}`}>
             <a
               className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`}
+              href="https://www.facebook.com/Nacxit-Developer-109159920582733/"
             >
               <FaFacebookSquare />
             </a>
             <a
               className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`}
+              href="https://twitter.com/NacxitE"
             >
               <FaTwitterSquare />
             </a>
             <a
               className={`${footerStyle.iconFontAwesome} ${footerStyle.hvrFloatShadow}`}
+              href="https://www.linkedin.com/in/nacxit-mayorga-b0906a195"
             >
               <FaLinkedin />
             </a>
