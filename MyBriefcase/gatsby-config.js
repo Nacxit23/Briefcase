@@ -7,8 +7,8 @@ module.exports = {
   siteMetadata: {
     copyRight: `© All copyright 2019`,
     phoneNumber: `+505 87170686`,
-    personalEmail: `nacxitMayorga@hotmail.com`
-    },
+    personalEmail: `nacxitMayorga@hotmail.com`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -16,17 +16,34 @@ module.exports = {
         fonts: [
           `Open Sans`,
           `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+          `Righteous`,
         ],
         display: "swap",
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-transition-link`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
         path: `${__dirname}/assets/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `documents`,
+        path: `${__dirname}/documents/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `icons`,
+        path: `${__dirname}/icons/`,
       },
     },
   ],

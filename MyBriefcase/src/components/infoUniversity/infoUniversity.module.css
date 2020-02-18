@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather&display=swap');
+
+.contener {
+  background-color: #fff9f6;
+  background-image: radial-gradient(#fff4f1 40%, transparent 0),
+    radial-gradient(#fff4f1 40%, transparent 0);
+  background-size: 600px;
+  background-position: 0 0, 330px 260px;
+}
+
+.uni-style {
+  color: #4a2d9a;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 66px;
+}
+
+.sentence {
+  color: rgba(74, 45, 154, 0.6);
+  font-family: "McLaren", cursive;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: justify-all;
+}
+
+.my-life {
+  padding-top: 80px;
+}
+
+.icon-size {
+  color: rgba(74, 45, 154, 0.6);
+  font-size: 70px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.title-knowledge {
+  color: #4a2d9a;
+  font-family: "Calistoga", cursive;
+  font-weight: 400;
+}
+
+.conteinerSkin {
+  border-top: rgba(114, 113, 144, 0.5) solid 1px;
+}
+
+.icon-conteiner {
+  padding: 0 114px;
+}
+
+.experience {
+  background-color: #fff9f6;
+}
+
+.ball {
+  background: rgba(179, 220, 237, 1);
+  background: linear-gradient(
+    to right,
+    rgba(179, 220, 237, 1) 0%,
+    rgba(41, 185, 229, 1) 25%,
+    rgba(38, 76, 228, 1) 100%
+  );
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.title-three {
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+  color: rgb(74, 45, 154);
+  font-size: 47px;
+}
+
+.company-name {
+  color: rgb(74, 45, 154);
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.project-info {
+  color: rgb(74, 45, 154);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.icon {
+  font-size: 70px;
+}
+
+.icon-work-angular {
+  font-size: 70px;
+  color: #f32131;
+}
+
+.icon-work-vue {
+  font-size: 70px;
+  color: #41b883;
+}
+
+.icon-laravel {
+  color: #f05340;
+  font-size: 70px;
+}
+
+.icon-java {
+  color: #e77102;
+  font-size: 70px;
+}
+
+.icon-php {
+  color: #787cb4;
+  font-size: 70px;
+}
+
+.icon-gatsby {
+  width: 80px;
+  margin-left: 58px;
+  margin-bottom: 10px;
+}
+
+.icon-c {
+  width: 65px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-photo {
+  width: 80px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.icon-illus {
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.sqlServer {
+  width: 80px;
+  margin-left: 52px;
+  margin-bottom: 10px;
+}
+
+.icon-anima {
+  width: 80px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.icon-graphQl {
+  width: 80px;
+  margin-left: 28px;
+  margin-bottom: 10px;
+}
+
+.icon-js {
+  color: #d1b431;
+  font-size: 70px;
+}
+
+.icon-css {
+  color: #264de4;
+  font-size: 70px;
+}
+
+.icon-html {
+  color: #f16524;
+  font-size: 70px;
+}
+
+.name-framework {
+  color: rgba(114, 113, 144, 0.5);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+  margin-top: 0;
+}
+
+.tittle-two {
+  color: #f32131;
+  font-family: "Alatsi", sans-serif;
+  margin-top: 1cm;
+}
+
+.name-work {
+  color: #4a2d9a;
+  font-family: "Oxygen", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.logo-uni-conteiner {
+  height: 120px;
+}
+
+@media screen and (max-width: 400px) {
+  .icon-gatsby {
+    margin-left: 45px;
+  }
+
+  .icon-anima {
+    margin-left: 10px;
+  }
+
+  .sqlServer {
+    width: 80px;
+    margin-left: 47px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .icon-gatsby {
+    margin-left: 45px;
+  }
+
+  .box-icon-inf {
+    margin-left: 25px;
+  }
+
+  .icon-photo {
+    margin-left: 47px;
+  }
+
+  .icon-illus {
+    margin-left: 40px;
+  }
+
+  .icon-anima {
+    margin-left: 45px;
+  }
+
+  .sqlServer {
+    width: 80px;
+    margin-left: 47px;
+    margin-bottom: 10px;
+  }
+}
